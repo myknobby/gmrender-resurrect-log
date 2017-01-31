@@ -1,0 +1,474 @@
+INFO  [2017-01-15 11:54:13.405767 | main] gmediarender 0.0.7-git log started [ gmediarender 2016-11-17_90b14e8 (libupnp-1.6.19+git20141001; glib-2.42.1; gstreamer-1.4.4) ]
+INFO  [2017-01-15 11:54:13.406770 | output] Using output module: gst (GStreamer multimedia framework)
+INFO  [2017-01-15 11:54:13.549307 | connmgr] Registering support for 'subpicture/x-dvd'
+INFO  [2017-01-15 11:54:13.549403 | connmgr] Registering support for 'audio/*'
+INFO  [2017-01-15 11:54:13.640501 | connmgr] Registering support for 'video/mpeg'
+INFO  [2017-01-15 11:54:13.821093 | connmgr] Registering support for 'audio/AMR'
+INFO  [2017-01-15 11:54:13.821536 | connmgr] Registering support for 'audio/x-raw'
+INFO  [2017-01-15 11:54:14.048490 | connmgr] Registering support for 'video/x-raw'
+INFO  [2017-01-15 11:54:14.236256 | connmgr] Registering support for 'audio/x-sid'
+INFO  [2017-01-15 11:54:14.316895 | connmgr] Registering support for 'audio/mpeg'
+INFO  [2017-01-15 11:54:14.316992 | connmgr] Registering support for 'audio/x-mpeg'
+INFO  [2017-01-15 11:54:14.317015 | connmgr] Registering support for 'audio/x-scpls'
+INFO  [2017-01-15 11:54:14.317038 | connmgr] Registering support for 'audio/L16;rate=44100;channels=2'
+INFO  [2017-01-15 11:54:14.341328 | connmgr] Registering support for 'audio/AMR-WB'
+INFO  [2017-01-15 11:54:14.408002 | connmgr] Registering support for 'audio/x-private1-lpcm'
+INFO  [2017-01-15 11:54:14.408175 | connmgr] Registering support for 'audio/x-lpcm'
+INFO  [2017-01-15 11:54:14.572740 | connmgr] Registering support for 'video/x-ms-asf'
+INFO  [2017-01-15 11:54:14.573246 | connmgr] Registering support for 'application/x-rtp'
+INFO  [2017-01-15 11:54:14.591374 | connmgr] Registering support for 'application/vnd.rn-realmedia'
+INFO  [2017-01-15 11:54:14.591998 | connmgr] Registering support for 'application/x-pn-realaudio'
+INFO  [2017-01-15 11:54:14.592485 | connmgr] Registering support for 'application/x-rdt'
+INFO  [2017-01-15 11:54:14.593222 | connmgr] Registering support for 'application/x-rtcp'
+INFO  [2017-01-15 11:54:14.615202 | connmgr] Registering support for 'audio/x-ac3'
+INFO  [2017-01-15 11:54:14.615303 | connmgr] Registering support for 'audio/ac3'
+INFO  [2017-01-15 11:54:14.615328 | connmgr] Registering support for 'audio/x-private1-ac3'
+INFO  [2017-01-15 11:54:14.633160 | connmgr] Registering support for 'audio/x-wavpack'
+INFO  [2017-01-15 11:54:14.640326 | connmgr] Registering support for 'application/x-yuv4mpeg'
+INFO  [2017-01-15 11:54:14.749509 | connmgr] Registering support for 'image/jpeg'
+INFO  [2017-01-15 11:54:15.024664 | connmgr] Registering support for 'application/x-ass'
+INFO  [2017-01-15 11:54:15.024759 | connmgr] Registering support for 'application/x-ssa'
+INFO  [2017-01-15 11:54:15.707913 | connmgr] Registering support for 'image/x-j2c'
+INFO  [2017-01-15 11:54:15.708068 | connmgr] Registering support for 'image/x-jpc'
+INFO  [2017-01-15 11:54:15.708932 | connmgr] Registering support for 'video/x-h263'
+INFO  [2017-01-15 11:54:15.708997 | connmgr] Registering support for 'video/x-divx'
+INFO  [2017-01-15 11:54:15.709050 | connmgr] Registering support for 'video/x-h264'
+INFO  [2017-01-15 11:54:15.709103 | connmgr] Registering support for 'text/x-raw'
+INFO  [2017-01-15 11:54:15.710575 | connmgr] Registering support for 'audio/x-alac'
+INFO  [2017-01-15 11:54:15.710636 | connmgr] Registering support for 'audio/alac'
+INFO  [2017-01-15 11:54:15.710695 | connmgr] Registering support for 'video/x-mp4-part'
+INFO  [2017-01-15 11:54:15.711602 | connmgr] Registering support for 'audio/x-adpcm'
+INFO  [2017-01-15 11:54:15.711674 | connmgr] Registering support for 'audio/x-alaw'
+INFO  [2017-01-15 11:54:15.711730 | connmgr] Registering support for 'audio/x-mulaw'
+INFO  [2017-01-15 11:54:15.711802 | connmgr] Registering support for 'video/x-svq'
+INFO  [2017-01-15 11:54:15.711853 | connmgr] Registering support for 'video/x-dv'
+INFO  [2017-01-15 11:54:15.711905 | connmgr] Registering support for 'video/x-vp8'
+INFO  [2017-01-15 11:54:15.711955 | connmgr] Registering support for 'video/x-dirac'
+INFO  [2017-01-15 11:54:15.712005 | connmgr] Registering support for 'video/x-qt-part'
+INFO  [2017-01-15 11:54:15.713243 | connmgr] Registering support for 'video/quicktime'
+INFO  [2017-01-15 11:54:15.713328 | connmgr] Registering support for 'video/mj2'
+INFO  [2017-01-15 11:54:15.713382 | connmgr] Registering support for 'audio/x-m4a'
+INFO  [2017-01-15 11:54:15.713431 | connmgr] Registering support for 'audio/m4a'
+INFO  [2017-01-15 11:54:15.713480 | connmgr] Registering support for 'audio/mp4'
+INFO  [2017-01-15 11:54:15.713528 | connmgr] Registering support for 'application/x-3gp'
+INFO  [2017-01-15 11:54:15.762225 | connmgr] Registering support for 'application/sdp'
+INFO  [2017-01-15 11:54:15.863751 | connmgr] Registering support for 'image/webp'
+INFO  [2017-01-15 11:54:15.903073 | connmgr] Registering support for 'audio/x-wav'
+INFO  [2017-01-15 11:54:15.920462 | connmgr] Registering support for 'video/x-ivf'
+INFO  [2017-01-15 11:54:16.019079 | connmgr] Registering support for 'audio/x-vorbis'
+INFO  [2017-01-15 11:54:16.027472 | connmgr] Registering support for 'multipart/x-mixed-replace'
+INFO  [2017-01-15 11:54:16.034374 | connmgr] Registering support for 'audio/x-gsm'
+INFO  [2017-01-15 11:54:16.034557 | connmgr] Registering support for 'audio/ms-gsm'
+INFO  [2017-01-15 11:54:16.071850 | connmgr] Registering support for 'audio/x-dts'
+INFO  [2017-01-15 11:54:16.072010 | connmgr] Registering support for 'audio/x-private1-dts'
+INFO  [2017-01-15 11:54:16.080223 | connmgr] Registering support for 'application/x-subtitle'
+INFO  [2017-01-15 11:54:16.080351 | connmgr] Registering support for 'application/x-subtitle-sami'
+INFO  [2017-01-15 11:54:16.080406 | connmgr] Registering support for 'application/x-subtitle-tmplayer'
+INFO  [2017-01-15 11:54:16.080457 | connmgr] Registering support for 'application/x-subtitle-mpl2'
+INFO  [2017-01-15 11:54:16.080508 | connmgr] Registering support for 'application/x-subtitle-dks'
+INFO  [2017-01-15 11:54:16.080558 | connmgr] Registering support for 'application/x-subtitle-qttext'
+INFO  [2017-01-15 11:54:16.080608 | connmgr] Registering support for 'application/x-subtitle-lrc'
+INFO  [2017-01-15 11:54:16.130973 | connmgr] Registering support for 'audio/x-sbc'
+INFO  [2017-01-15 11:54:16.131525 | connmgr] Registering support for 'audio/x-flac'
+INFO  [2017-01-15 11:54:16.132027 | connmgr] Registering support for 'audio/x-eac3'
+INFO  [2017-01-15 11:54:16.132250 | connmgr] Registering support for 'audio/x-amr-nb-sh'
+INFO  [2017-01-15 11:54:16.132280 | connmgr] Registering support for 'audio/x-amr-wb-sh'
+INFO  [2017-01-15 11:54:16.177865 | connmgr] Registering support for 'image/png'
+INFO  [2017-01-15 11:54:16.196648 | connmgr] Registering support for 'subpicture/x-pgs'
+INFO  [2017-01-15 11:54:16.332951 | connmgr] Registering support for 'audio/x-siren'
+INFO  [2017-01-15 11:54:16.400473 | connmgr] Registering support for 'video/x-wmv'
+INFO  [2017-01-15 11:54:16.400917 | connmgr] Registering support for 'video/x-h265'
+INFO  [2017-01-15 11:54:16.431678 | connmgr] Registering support for 'application/x-gdp'
+INFO  [2017-01-15 11:54:16.476699 | connmgr] Registering support for 'application/x-rtp-stream'
+INFO  [2017-01-15 11:54:16.476795 | connmgr] Registering support for 'application/x-rtcp-stream'
+INFO  [2017-01-15 11:54:16.476824 | connmgr] Registering support for 'application/x-srtp-stream'
+INFO  [2017-01-15 11:54:16.476850 | connmgr] Registering support for 'application/x-srtcp-stream'
+INFO  [2017-01-15 11:54:16.477127 | connmgr] Registering support for 'application/x-srtp'
+INFO  [2017-01-15 11:54:16.477158 | connmgr] Registering support for 'application/x-srtcp'
+INFO  [2017-01-15 11:54:16.478699 | connmgr] Registering support for 'video/x-theora'
+INFO  [2017-01-15 11:54:16.479466 | connmgr] Registering support for 'audio/x-speex'
+INFO  [2017-01-15 11:54:16.482621 | connmgr] Registering support for 'video/mpegts'
+INFO  [2017-01-15 11:54:16.484424 | connmgr] Registering support for 'video/x-jpeg'
+INFO  [2017-01-15 11:54:16.489574 | connmgr] Registering support for 'audio/G729'
+INFO  [2017-01-15 11:54:16.490545 | connmgr] Registering support for 'audio/G723'
+INFO  [2017-01-15 11:54:16.491109 | connmgr] Registering support for 'audio/G722'
+INFO  [2017-01-15 11:54:16.491749 | connmgr] Registering support for 'audio/x-iLBC'
+INFO  [2017-01-15 11:54:16.492805 | connmgr] Registering support for 'audio/x-celt'
+INFO  [2017-01-15 11:54:16.493489 | connmgr] Registering support for 'audio/x-bv'
+INFO  [2017-01-15 11:54:16.775751 | connmgr] Registering support for 'video/x-bayer'
+INFO  [2017-01-15 11:54:16.932358 | connmgr] Registering support for 'image/svg+xml'
+INFO  [2017-01-15 11:54:16.932449 | connmgr] Registering support for 'image/svg'
+INFO  [2017-01-15 11:54:16.932992 | connmgr] Registering support for 'text/plain'
+INFO  [2017-01-15 11:54:16.996482 | connmgr] Registering support for 'audio/x-ay'
+INFO  [2017-01-15 11:54:16.996578 | connmgr] Registering support for 'audio/x-gbs'
+INFO  [2017-01-15 11:54:16.996608 | connmgr] Registering support for 'audio/x-gym'
+INFO  [2017-01-15 11:54:16.996635 | connmgr] Registering support for 'audio/x-hes'
+INFO  [2017-01-15 11:54:16.996661 | connmgr] Registering support for 'audio/x-kss'
+INFO  [2017-01-15 11:54:16.996688 | connmgr] Registering support for 'audio/x-nsf'
+INFO  [2017-01-15 11:54:16.996715 | connmgr] Registering support for 'audio/x-sap'
+INFO  [2017-01-15 11:54:16.996742 | connmgr] Registering support for 'audio/x-spc'
+INFO  [2017-01-15 11:54:16.996768 | connmgr] Registering support for 'audio/x-vgm'
+INFO  [2017-01-15 11:54:17.026918 | connmgr] Registering support for 'audio/midi'
+INFO  [2017-01-15 11:54:17.027013 | connmgr] Registering support for 'audio/riff-midi'
+INFO  [2017-01-15 11:54:17.070354 | connmgr] Registering support for 'video/x-fli'
+INFO  [2017-01-15 11:54:18.005026 | connmgr] Registering support for 'video/x-flash-video'
+INFO  [2017-01-15 11:54:18.010877 | connmgr] Registering support for 'video/x-pn-realvideo'
+INFO  [2017-01-15 11:54:18.012314 | connmgr] Registering support for 'audio/x-vnd.sony.atrac3'
+INFO  [2017-01-15 11:54:18.018406 | connmgr] Registering support for 'audio/x-mace'
+INFO  [2017-01-15 11:54:18.025271 | connmgr] Registering support for 'video/x-msmpeg'
+INFO  [2017-01-15 11:54:18.025896 | connmgr] Registering support for 'audio/x-wma'
+INFO  [2017-01-15 11:54:18.028419 | connmgr] Registering support for 'application/x-gst-av-wsvqa'
+INFO  [2017-01-15 11:54:18.028704 | connmgr] Registering support for 'application/x-gst-av-wsaud'
+INFO  [2017-01-15 11:54:18.029002 | connmgr] Registering support for 'application/x-gst-av-wc3movie'
+INFO  [2017-01-15 11:54:18.029259 | connmgr] Registering support for 'audio/x-voc'
+INFO  [2017-01-15 11:54:18.029534 | connmgr] Registering support for 'application/x-gst-av-vmd'
+INFO  [2017-01-15 11:54:18.029783 | connmgr] Registering support for 'audio/x-ttafile'
+INFO  [2017-01-15 11:54:18.030050 | connmgr] Registering support for 'application/x-gst-av-psxstr'
+INFO  [2017-01-15 11:54:18.030278 | connmgr] Registering support for 'application/x-gst-av-sol'
+INFO  [2017-01-15 11:54:18.030491 | connmgr] Registering support for 'application/x-gst-av-smk'
+INFO  [2017-01-15 11:54:18.030712 | connmgr] Registering support for 'application/x-gst-av-film_cpk'
+INFO  [2017-01-15 11:54:18.030973 | connmgr] Registering support for 'video/x-pva'
+INFO  [2017-01-15 11:54:18.031191 | connmgr] Registering support for 'application/x-gst-av-nuv'
+INFO  [2017-01-15 11:54:18.031406 | connmgr] Registering support for 'application/x-gst-av-nut'
+INFO  [2017-01-15 11:54:18.031633 | connmgr] Registering support for 'video/x-nsv'
+INFO  [2017-01-15 11:54:18.031844 | connmgr] Registering support for 'application/mxf'
+INFO  [2017-01-15 11:54:18.032082 | connmgr] Registering support for 'audio/x-musepack'
+INFO  [2017-01-15 11:54:18.032308 | connmgr] Registering support for 'application/x-gst-av-mmf'
+INFO  [2017-01-15 11:54:18.032530 | connmgr] Registering support for 'application/x-gst-av-mm'
+INFO  [2017-01-15 11:54:18.032754 | connmgr] Registering support for 'application/x-gst-av-ipmovie'
+INFO  [2017-01-15 11:54:18.032966 | connmgr] Registering support for 'application/x-gst-av-idcin'
+INFO  [2017-01-15 11:54:18.033179 | connmgr] Registering support for 'application/gxf'
+INFO  [2017-01-15 11:54:18.033461 | connmgr] Registering support for 'video/x-4xm'
+INFO  [2017-01-15 11:54:18.033676 | connmgr] Registering support for 'application/x-gst-av-ea'
+INFO  [2017-01-15 11:54:18.033890 | connmgr] Registering support for 'application/x-gst-av-daud'
+INFO  [2017-01-15 11:54:18.034122 | connmgr] Registering support for 'application/x-gst-av-avs'
+INFO  [2017-01-15 11:54:18.034334 | connmgr] Registering support for 'application/x-ape'
+INFO  [2017-01-15 11:54:18.034568 | connmgr] Registering support for 'audio/x-aiff'
+INFO  [2017-01-15 11:54:18.034605 | connmgr] Registering support for 'audio/aiff'
+INFO  [2017-01-15 11:54:18.045877 | connmgr] Registering support for 'video/x-zmbv'
+INFO  [2017-01-15 11:54:18.047224 | connmgr] Registering support for 'video/x-zlib'
+INFO  [2017-01-15 11:54:18.048865 | connmgr] Registering support for 'unknown/unknown'
+INFO  [2017-01-15 11:54:18.053299 | connmgr] Registering support for 'video/x-gst-av-xl'
+INFO  [2017-01-15 11:54:18.056264 | connmgr] Registering support for 'video/x-xan'
+INFO  [2017-01-15 11:54:18.059222 | connmgr] Registering support for 'video/x-gst-av-wnv1'
+INFO  [2017-01-15 11:54:18.066443 | connmgr] Registering support for 'video/x-gst-av-vqavideo'
+INFO  [2017-01-15 11:54:18.071589 | connmgr] Registering support for 'video/x-vp6-flash'
+INFO  [2017-01-15 11:54:18.072817 | connmgr] Registering support for 'video/x-vp6-alpha'
+INFO  [2017-01-15 11:54:18.074249 | connmgr] Registering support for 'video/x-vp6'
+INFO  [2017-01-15 11:54:18.075724 | connmgr] Registering support for 'video/x-vp5'
+INFO  [2017-01-15 11:54:18.077359 | connmgr] Registering support for 'video/x-vp3'
+INFO  [2017-01-15 11:54:18.078698 | connmgr] Registering support for 'video/x-vmnc'
+INFO  [2017-01-15 11:54:18.079985 | connmgr] Registering support for 'video/x-gst-av-vmdvideo'
+INFO  [2017-01-15 11:54:18.081144 | connmgr] Registering support for 'video/x-ati-vcr'
+INFO  [2017-01-15 11:54:18.088071 | connmgr] Registering support for 'video/x-ultimotion'
+INFO  [2017-01-15 11:54:18.090134 | connmgr] Registering support for 'video/x-tscc'
+INFO  [2017-01-15 11:54:18.091332 | connmgr] Registering support for 'video/x-camtasia'
+INFO  [2017-01-15 11:54:18.092564 | connmgr] Registering support for 'video/x-truemotion'
+INFO  [2017-01-15 11:54:18.095695 | connmgr] Registering support for 'image/tiff'
+INFO  [2017-01-15 11:54:18.099096 | connmgr] Registering support for 'image/x-tga'
+INFO  [2017-01-15 11:54:18.102814 | connmgr] Registering support for 'image/x-sun-raster'
+INFO  [2017-01-15 11:54:18.103908 | connmgr] Registering support for 'video/sp5x'
+INFO  [2017-01-15 11:54:18.105023 | connmgr] Registering support for 'video/x-smc'
+INFO  [2017-01-15 11:54:18.108197 | connmgr] Registering support for 'image/x-sgi'
+INFO  [2017-01-15 11:54:18.114099 | connmgr] Registering support for 'video/x-apple-video'
+INFO  [2017-01-15 11:54:18.115260 | connmgr] Registering support for 'video/x-gst-av-roqvideo'
+INFO  [2017-01-15 11:54:18.118362 | connmgr] Registering support for 'video/x-rle'
+INFO  [2017-01-15 11:54:18.119821 | connmgr] Registering support for 'video/x-gst-av-qpeg'
+INFO  [2017-01-15 11:54:18.121400 | connmgr] Registering support for 'video/x-qdrw'
+INFO  [2017-01-15 11:54:18.123759 | connmgr] Registering support for 'video/x-prores'
+INFO  [2017-01-15 11:54:18.124890 | connmgr] Registering support for 'image/ppm'
+INFO  [2017-01-15 11:54:18.128645 | connmgr] Registering support for 'video/x-gst-av-pgmyuv'
+INFO  [2017-01-15 11:54:18.129866 | connmgr] Registering support for 'image/x-portable-graymap'
+INFO  [2017-01-15 11:54:18.131059 | connmgr] Registering support for 'image/x-pcx'
+INFO  [2017-01-15 11:54:18.132557 | connmgr] Registering support for 'image/pbm'
+INFO  [2017-01-15 11:54:18.133821 | connmgr] Registering support for 'image/x-portable-anymap'
+INFO  [2017-01-15 11:54:18.136059 | connmgr] Registering support for 'video/x-nuv'
+INFO  [2017-01-15 11:54:18.143073 | connmgr] Registering support for 'video/x-mszh'
+INFO  [2017-01-15 11:54:18.144531 | connmgr] Registering support for 'video/x-msvideocodec'
+INFO  [2017-01-15 11:54:18.159487 | connmgr] Registering support for 'video/x-gst-av-mmvideo'
+INFO  [2017-01-15 11:54:18.160685 | connmgr] Registering support for 'video/x-mjpeg-b'
+INFO  [2017-01-15 11:54:18.162914 | connmgr] Registering support for 'video/x-mimic'
+INFO  [2017-01-15 11:54:18.164272 | connmgr] Registering support for 'video/x-gst-av-mdec'
+INFO  [2017-01-15 11:54:18.165537 | connmgr] Registering support for 'video/x-loco'
+INFO  [2017-01-15 11:54:18.167099 | connmgr] Registering support for 'video/x-lagarith'
+INFO  [2017-01-15 11:54:18.168963 | connmgr] Registering support for 'video/x-kmvc'
+INFO  [2017-01-15 11:54:18.174649 | connmgr] Registering support for 'video/x-gst-av-interplayvideo'
+INFO  [2017-01-15 11:54:18.175948 | connmgr] Registering support for 'video/x-indeo'
+INFO  [2017-01-15 11:54:18.186061 | connmgr] Registering support for 'video/x-gst-av-idcinvideo'
+INFO  [2017-01-15 11:54:18.187393 | connmgr] Registering support for 'video/x-huffyuv'
+INFO  [2017-01-15 11:54:18.192717 | connmgr] Registering support for 'video/x-intel-h263'
+INFO  [2017-01-15 11:54:18.195455 | connmgr] Registering support for 'video/x-h261'
+INFO  [2017-01-15 11:54:18.199265 | connmgr] Registering support for 'video/x-fraps'
+INFO  [2017-01-15 11:54:18.204069 | connmgr] Registering support for 'video/x-gst-av-flic'
+INFO  [2017-01-15 11:54:18.206579 | connmgr] Registering support for 'video/x-flash-screen'
+INFO  [2017-01-15 11:54:18.209319 | connmgr] Registering support for 'video/x-gst-av-ffvhuff'
+INFO  [2017-01-15 11:54:18.210697 | connmgr] Registering support for 'video/x-ffv'
+INFO  [2017-01-15 11:54:18.216765 | connmgr] Registering support for 'video/x-gst-av-8bps'
+INFO  [2017-01-15 11:54:18.232421 | connmgr] Registering support for 'video/x-dnxhd'
+INFO  [2017-01-15 11:54:18.235114 | connmgr] Registering support for 'video/x-compressed-yuv'
+INFO  [2017-01-15 11:54:18.236426 | connmgr] Registering support for 'video/x-camstudio'
+INFO  [2017-01-15 11:54:18.239134 | connmgr] Registering support for 'video/x-cirrus-logic-accupak'
+INFO  [2017-01-15 11:54:18.240901 | connmgr] Registering support for 'video/x-cinepak'
+INFO  [2017-01-15 11:54:18.244577 | connmgr] Registering support for 'video/x-gst-av-cavs'
+INFO  [2017-01-15 11:54:18.251040 | connmgr] Registering support for 'image/bmp'
+INFO  [2017-01-15 11:54:18.256241 | connmgr] Registering support for 'video/x-gst-av-avs'
+INFO  [2017-01-15 11:54:18.260337 | connmgr] Registering support for 'video/x-asus'
+INFO  [2017-01-15 11:54:18.266100 | connmgr] Registering support for 'video/x-amv'
+INFO  [2017-01-15 11:54:18.268400 | connmgr] Registering support for 'video/x-apple-intermediate-codec'
+INFO  [2017-01-15 11:54:18.269572 | connmgr] Registering support for 'video/x-aasc'
+INFO  [2017-01-15 11:54:18.303038 | connmgr] Registering support for 'audio/x-dpcm'
+INFO  [2017-01-15 11:54:18.312895 | connmgr] Registering support for 'audio/x-gst-av-ws_snd1'
+INFO  [2017-01-15 11:54:18.313949 | connmgr] Registering support for 'audio/x-wms'
+INFO  [2017-01-15 11:54:18.321656 | connmgr] Registering support for 'audio/x-gst-av-vmdaudio'
+INFO  [2017-01-15 11:54:18.322857 | connmgr] Registering support for 'audio/x-twin-vq'
+INFO  [2017-01-15 11:54:18.323860 | connmgr] Registering support for 'audio/x-tta'
+INFO  [2017-01-15 11:54:18.324833 | connmgr] Registering support for 'audio/x-truespeech'
+INFO  [2017-01-15 11:54:18.325846 | connmgr] Registering support for 'audio/x-true-hd'
+INFO  [2017-01-15 11:54:18.328880 | connmgr] Registering support for 'audio/x-sipro'
+INFO  [2017-01-15 11:54:18.329886 | connmgr] Registering support for 'audio/x-shorten'
+INFO  [2017-01-15 11:54:18.332193 | connmgr] Registering support for 'audio/x-pn-realaudio'
+INFO  [2017-01-15 11:54:18.334406 | connmgr] Registering support for 'audio/x-qdm2'
+INFO  [2017-01-15 11:54:18.335520 | connmgr] Registering support for 'audio/qcelp'
+INFO  [2017-01-15 11:54:18.339372 | connmgr] Registering support for 'audio/x-nellymoser'
+INFO  [2017-01-15 11:54:18.340505 | connmgr] Registering support for 'audio/x-ffmpeg-parsed-musepack'
+INFO  [2017-01-15 11:54:18.342672 | connmgr] Registering support for 'audio/x-gst-av-mp3on4'
+INFO  [2017-01-15 11:54:18.344809 | connmgr] Registering support for 'audio/x-gst-av-mp3adu'
+INFO  [2017-01-15 11:54:18.350924 | connmgr] Registering support for 'audio/x-mlp'
+INFO  [2017-01-15 11:54:18.355145 | connmgr] Registering support for 'audio/x-imc'
+INFO  [2017-01-15 11:54:18.371329 | connmgr] Registering support for 'audio/x-vnd.sony.atrac1'
+INFO  [2017-01-15 11:54:18.372533 | connmgr] Registering support for 'audio/x-ffmpeg-parsed-ape'
+INFO  [2017-01-15 11:54:18.380546 | connmgr] Registering support for 'audio/x-smpte-302m'
+INFO  [2017-01-15 11:54:18.670463 | connmgr] Registering support for 'video/x-flv'
+INFO  [2017-01-15 11:54:18.692824 | connmgr] Registering support for 'audio/x-au'
+INFO  [2017-01-15 11:54:18.738988 | connmgr] Registering support for 'application/ogg'
+INFO  [2017-01-15 11:54:18.739118 | connmgr] Registering support for 'audio/ogg'
+INFO  [2017-01-15 11:54:18.739157 | connmgr] Registering support for 'video/ogg'
+INFO  [2017-01-15 11:54:18.739232 | connmgr] Registering support for 'video/webm'
+INFO  [2017-01-15 11:54:18.739273 | connmgr] Registering support for 'audio/webm'
+INFO  [2017-01-15 11:54:19.007929 | connmgr] Registering support for 'image/x-exr'
+INFO  [2017-01-15 11:54:19.026452 | connmgr] Registering support for 'application/vnd.ms-sstr+xml'
+INFO  [2017-01-15 11:54:19.263289 | connmgr] Registering support for 'image/jp2'
+INFO  [2017-01-15 11:54:19.283267 | connmgr] Registering support for 'application/x-icy'
+INFO  [2017-01-15 11:54:19.292471 | connmgr] Registering support for 'video/x-cdxa'
+INFO  [2017-01-15 11:54:19.423474 | connmgr] Registering support for 'application/x-bzip'
+INFO  [2017-01-15 11:54:19.448682 | connmgr] Registering support for 'subpicture/x-dvb'
+INFO  [2017-01-15 11:54:19.491671 | connmgr] Registering support for 'application/x-teletext'
+INFO  [2017-01-15 11:54:19.539618 | connmgr] Registering support for 'application/x-apetag'
+INFO  [2017-01-15 11:54:19.660231 | connmgr] Registering support for 'image/gif'
+INFO  [2017-01-15 11:54:19.660343 | connmgr] Registering support for 'image/x-icon'
+INFO  [2017-01-15 11:54:19.660385 | connmgr] Registering support for 'application/x-navi-animation'
+INFO  [2017-01-15 11:54:19.660419 | connmgr] Registering support for 'image/x-cmu-raster'
+INFO  [2017-01-15 11:54:19.660455 | connmgr] Registering support for 'image/x-pixmap'
+INFO  [2017-01-15 11:54:19.660495 | connmgr] Registering support for 'image/x-portable-bitmap'
+INFO  [2017-01-15 11:54:19.660530 | connmgr] Registering support for 'image/x-portable-pixmap'
+INFO  [2017-01-15 11:54:19.660564 | connmgr] Registering support for 'image/x-bmp'
+INFO  [2017-01-15 11:54:19.660597 | connmgr] Registering support for 'image/x-MS-bmp'
+INFO  [2017-01-15 11:54:19.660629 | connmgr] Registering support for 'image/vnd.wap.wbmp'
+INFO  [2017-01-15 11:54:19.660661 | connmgr] Registering support for 'image/x-bitmap'
+INFO  [2017-01-15 11:54:20.514525 | connmgr] Registering support for 'subtitle/x-kate'
+INFO  [2017-01-15 11:54:20.514659 | connmgr] Registering support for 'application/x-kate'
+INFO  [2017-01-15 11:54:20.540980 | connmgr] Registering support for 'audio/x-opus'
+INFO  [2017-01-15 11:54:20.774970 | connmgr] Registering support for 'video/x-pwc1'
+INFO  [2017-01-15 11:54:20.775105 | connmgr] Registering support for 'video/x-pwc2'
+INFO  [2017-01-15 11:54:20.775161 | connmgr] Registering support for 'video/x-sonix'
+INFO  [2017-01-15 11:54:21.047516 | connmgr] Registering support for 'video/x-vp9'
+INFO  [2017-01-15 11:54:21.092817 | connmgr] Registering support for 'application/dash+xml'
+INFO  [2017-01-15 11:54:21.326442 | connmgr] Registering support for 'audio/x-ircam'
+INFO  [2017-01-15 11:54:21.326575 | connmgr] Registering support for 'audio/x-nist'
+INFO  [2017-01-15 11:54:21.326617 | connmgr] Registering support for 'audio/x-paris'
+INFO  [2017-01-15 11:54:21.326668 | connmgr] Registering support for 'audio/x-rf64'
+INFO  [2017-01-15 11:54:21.326746 | connmgr] Registering support for 'audio/x-sds'
+INFO  [2017-01-15 11:54:21.326788 | connmgr] Registering support for 'audio/x-svx'
+INFO  [2017-01-15 11:54:21.326850 | connmgr] Registering support for 'audio/x-w64'
+INFO  [2017-01-15 11:54:21.326905 | connmgr] Registering support for 'audio/x-xi'
+INFO  [2017-01-15 11:54:21.513338 | connmgr] Registering support for 'audio/x-mod'
+INFO  [2017-01-15 11:54:21.513517 | connmgr] Registering support for 'audio/x-xm'
+INFO  [2017-01-15 11:54:21.513579 | connmgr] Registering support for 'audio/x-it'
+INFO  [2017-01-15 11:54:21.513626 | connmgr] Registering support for 'audio/x-s3m'
+INFO  [2017-01-15 11:54:21.513667 | connmgr] Registering support for 'audio/x-stm'
+INFO  [2017-01-15 11:54:21.533219 | connmgr] Registering support for 'raw/x-pcap'
+INFO  [2017-01-15 11:54:21.765427 | connmgr] Registering support for 'audio/x-midi-event'
+INFO  [2017-01-15 11:54:21.829102 | connmgr] Registering support for 'application/x-hls'
+INFO  [2017-01-15 11:54:21.865053 | connmgr] Registering support for 'application/x-usf'
+INFO  [2017-01-15 11:54:21.865173 | connmgr] Registering support for 'application/x-subtitle-unknown'
+INFO  [2017-01-15 11:54:21.866868 | connmgr] Registering support for 'audio/x-matroska'
+INFO  [2017-01-15 11:54:21.867008 | connmgr] Registering support for 'video/x-matroska'
+INFO  [2017-01-15 11:54:21.867051 | connmgr] Registering support for 'video/x-matroska-3d'
+INFO  [2017-01-15 11:54:21.991679 | connmgr] Registering support for 'application/x-id3'
+INFO  [2017-01-15 11:54:22.922246 | connmgr] Registering support for 'application/x-subtitle-avi'
+INFO  [2017-01-15 11:54:22.927467 | connmgr] Registering support for 'video/x-msvideo'
+INFO  [2017-01-15 11:54:22.993135 | connmgr] Registering support for 'application/x-ogg-avi'
+INFO  [2017-01-15 11:54:22.993716 | connmgr] Registering support for 'application/x-ogm-text'
+INFO  [2017-01-15 11:54:22.995207 | connmgr] Registering support for 'application/x-ogm-video'
+INFO  [2017-01-15 11:54:22.995814 | connmgr] Registering support for 'application/x-ogm-audio'
+INFO  [2017-01-15 11:54:22.997252 | connmgr] Registering support for 'video/x-smoke'
+INFO  [2017-01-15 11:54:22.997365 | connmgr] Registering support for 'video/x-daala'
+INFO  [2017-01-15 11:54:22.997471 | connmgr] Registering support for 'text/x-cmml'
+INFO  [2017-01-15 11:54:22.997730 | connmgr] Registering support for 'application/kate'
+INFO  [2017-01-15 11:54:23.011051 | gstreamer] Setting audio sink to alsasink; device=sysdefault
+INFO  [2017-01-15 11:54:23.011641 | gstreamer] Set mute to off
+INFO  [2017-01-15 11:54:23.012034 | webserver] Provide /upnp/grender-64x64.png (image/png) from /usr/local/share/gmediarender/grender-64x64.png
+INFO  [2017-01-15 11:54:23.021175 | webserver] Provide /upnp/grender-128x128.png (image/png) from /usr/local/share/gmediarender/grender-128x128.png
+INFO  [2017-01-15 11:54:23.025954 | webserver] Provide /upnp/rendertransportSCPD.xml (text/xml) from buffer
+INFO  [2017-01-15 11:54:23.027031 | webserver] Provide /upnp/renderconnmgrSCPD.xml (text/xml) from buffer
+INFO  [2017-01-15 11:54:23.029517 | webserver] Provide /upnp/rendercontrolSCPD.xml (text/xml) from buffer
+INFO  [2017-01-15 11:54:23.030825 | upnp] Registered IP=192.168.31.106 port=49494
+INFO  [2017-01-15 11:54:23.136687 | gstreamer] Query volume fraction: 1.000000
+INFO  [2017-01-15 11:54:23.136810 | control] Output inital volume is 1.000000; setting control variables accordingly.
+INFO  [2017-01-15 11:54:23.136860 | control] Setting volume-db to 0.00db == #100
+INFO  [2017-01-15 11:54:23.137256 | main] Ready for rendering.
+INFO  [2017-01-15 11:54:23.204827 | webserver] Access /upnp/rendertransportSCPD.xml (text/xml) len=15697
+INFO  [2017-01-15 11:54:23.248533 | webserver] Access /upnp/renderconnmgrSCPD.xml (text/xml) len=4783
+INFO  [2017-01-15 11:54:23.273633 | webserver] Access /upnp/rendercontrolSCPD.xml (text/xml) len=13317
+INFO  [2017-01-15 11:54:23.314050 | upnp] Subscription request for urn:upnp-org:serviceId:AVTransport (uuid:614275c0ee6f2db3b9ddf654a8a3be1c)
+INFO  [2017-01-15 11:54:23.314454 | upnp] Initial variable sync: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportStatus val="OK"></TransportStatus>
+<NextAVTransportURI val=""></NextAVTransportURI>
+<NextAVTransportURIMetaData val=""></NextAVTransportURIMetaData>
+<CurrentTrackMetaData val=""></CurrentTrackMetaData>
+<RelativeCounterPosition val="2147483647"></RelativeCounterPosition>
+<PlaybackStorageMedium val="UNKNOWN"></PlaybackStorageMedium>
+<RelativeTimePosition val="0:00:00"></RelativeTimePosition>
+<PossibleRecordStorageMedia val="NOT_IMPLEMENTED"></PossibleRecordStorageMedia>
+<CurrentPlayMode val="NORMAL"></CurrentPlayMode>
+<TransportPlaySpeed val="1"></TransportPlaySpeed>
+<PossiblePlaybackStorageMedia val="NETWORK,UNKNOWN"></PossiblePlaybackStorageMedia>
+<AbsoluteTimePosition val="NOT_IMPLEMENTED"></AbsoluteTimePosition>
+<CurrentTrack val="0"></CurrentTrack>
+<CurrentTrackURI val=""></CurrentTrackURI>
+<CurrentTransportActions val="PLAY"></CurrentTransportActions>
+<NumberOfTracks val="0"></NumberOfTracks>
+<AVTransportURI val=""></AVTransportURI>
+<AbsoluteCounterPosition val="2147483647"></AbsoluteCounterPosition>
+<CurrentRecordQualityMode val="NOT_IMPLEMENTED"></CurrentRecordQualityMode>
+<CurrentMediaDuration val=""></CurrentMediaDuration>
+<AVTransportURIMetaData val=""></AVTransportURIMetaData>
+<RecordStorageMedium val="NOT_IMPLEMENTED"></RecordStorageMedium>
+<RecordMediumWriteStatus val="NOT_IMPLEMENTED"></RecordMediumWriteStatus>
+<CurrentTrackDuration val="0:00:00"></CurrentTrackDuration>
+<TransportState val="STOPPED"></TransportState>
+<PossibleRecordQualityModes val="NOT_IMPLEMENTED"></PossibleRecordQualityModes>
+</InstanceID>
+</Event>
+INFO  [2017-01-15 11:54:23.326524 | upnp] Subscription request for urn:upnp-org:serviceId:RenderingControl (uuid:614275c0ee6f2db3b9ddf654a8a3be1c)
+INFO  [2017-01-15 11:54:23.326816 | upnp] Initial variable sync: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/RCS/">
+<InstanceID val="0">
+<GreenVideoGain val="0"></GreenVideoGain>
+<BlueVideoBlackLevel val="0"></BlueVideoBlackLevel>
+<VerticalKeystone val="0"></VerticalKeystone>
+<GreenVideoBlackLevel val="0"></GreenVideoBlackLevel>
+<Volume val="100" channel="Master"></Volume>
+<Loudness val="0" channel="Master"></Loudness>
+<RedVideoGain val="0"></RedVideoGain>
+<ColorTemperature val="0"></ColorTemperature>
+<Sharpness val="0"></Sharpness>
+<RedVideoBlackLevel val="0"></RedVideoBlackLevel>
+<BlueVideoGain val="0"></BlueVideoGain>
+<Mute val="0" channel="Master"></Mute>
+<HorizontalKeystone val="0"></HorizontalKeystone>
+<VolumeDB val="0" channel="Master"></VolumeDB>
+<PresetNameList val=""></PresetNameList>
+<Contrast val="0"></Contrast>
+<Brightness val="0"></Brightness>
+</InstanceID>
+</Event>
+INFO  [2017-01-15 11:56:22.306593 | upnp] Subscription request for urn:upnp-org:serviceId:AVTransport (uuid:614275c0ee6f2db3b9ddf654a8a3be1c)
+INFO  [2017-01-15 11:56:22.307223 | upnp] Initial variable sync: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportStatus val="OK"></TransportStatus>
+<NextAVTransportURI val=""></NextAVTransportURI>
+<NextAVTransportURIMetaData val=""></NextAVTransportURIMetaData>
+<CurrentTrackMetaData val=""></CurrentTrackMetaData>
+<RelativeCounterPosition val="2147483647"></RelativeCounterPosition>
+<PlaybackStorageMedium val="UNKNOWN"></PlaybackStorageMedium>
+<RelativeTimePosition val="0:00:00"></RelativeTimePosition>
+<PossibleRecordStorageMedia val="NOT_IMPLEMENTED"></PossibleRecordStorageMedia>
+<CurrentPlayMode val="NORMAL"></CurrentPlayMode>
+<TransportPlaySpeed val="1"></TransportPlaySpeed>
+<PossiblePlaybackStorageMedia val="NETWORK,UNKNOWN"></PossiblePlaybackStorageMedia>
+<AbsoluteTimePosition val="NOT_IMPLEMENTED"></AbsoluteTimePosition>
+<CurrentTrack val="0"></CurrentTrack>
+<CurrentTrackURI val=""></CurrentTrackURI>
+<CurrentTransportActions val="PLAY"></CurrentTransportActions>
+<NumberOfTracks val="0"></NumberOfTracks>
+<AVTransportURI val=""></AVTransportURI>
+<AbsoluteCounterPosition val="2147483647"></AbsoluteCounterPosition>
+<CurrentRecordQualityMode val="NOT_IMPLEMENTED"></CurrentRecordQualityMode>
+<CurrentMediaDuration val=""></CurrentMediaDuration>
+<AVTransportURIMetaData val=""></AVTransportURIMetaData>
+<RecordStorageMedium val="NOT_IMPLEMENTED"></RecordStorageMedium>
+<RecordMediumWriteStatus val="NOT_IMPLEMENTED"></RecordMediumWriteStatus>
+<CurrentTrackDuration val="0:00:00"></CurrentTrackDuration>
+<TransportState val="STOPPED"></TransportState>
+<PossibleRecordQualityModes val="NOT_IMPLEMENTED"></PossibleRecordQualityModes>
+</InstanceID>
+</Event>
+INFO  [2017-01-15 11:56:22.346461 | upnp] Subscription request for urn:upnp-org:serviceId:RenderingControl (uuid:614275c0ee6f2db3b9ddf654a8a3be1c)
+INFO  [2017-01-15 11:56:22.346896 | upnp] Initial variable sync: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/RCS/">
+<InstanceID val="0">
+<GreenVideoGain val="0"></GreenVideoGain>
+<BlueVideoBlackLevel val="0"></BlueVideoBlackLevel>
+<VerticalKeystone val="0"></VerticalKeystone>
+<GreenVideoBlackLevel val="0"></GreenVideoBlackLevel>
+<Volume val="100" channel="Master"></Volume>
+<Loudness val="0" channel="Master"></Loudness>
+<RedVideoGain val="0"></RedVideoGain>
+<ColorTemperature val="0"></ColorTemperature>
+<Sharpness val="0"></Sharpness>
+<RedVideoBlackLevel val="0"></RedVideoBlackLevel>
+<BlueVideoGain val="0"></BlueVideoGain>
+<Mute val="0" channel="Master"></Mute>
+<HorizontalKeystone val="0"></HorizontalKeystone>
+<VolumeDB val="0" channel="Master"></VolumeDB>
+<PresetNameList val=""></PresetNameList>
+<Contrast val="0"></Contrast>
+<Brightness val="0"></Brightness>
+</InstanceID>
+</Event>
+INFO  [2017-01-15 11:56:22.388385 | webserver] Access /upnp/rendertransportSCPD.xml (text/xml) len=15697
+INFO  [2017-01-15 11:56:22.571465 | transport] AVTransportURI: http://192.168.31.172:61323/mp3?filepath=%2Fstorage%2Femulated%2F0%2Fnetease%2Fcloudmusic%2FCache%2FMusic1%2F28308080-192000-8cf0dda09f8952c4cca1be579438535a.mp3.uc%21
+INFO  [2017-01-15 11:56:22.571643 | transport] AVTransportURIMetaData: <DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:netease="http://music.163.com/dlna/"><item id="28308080"><dc:title>Me and My Broken Heart</dc:title><dc:creator>Rixton</dc:creator><upnp:class>object.item.audioItem.musicTrack</upnp:class><res protocolInfo="http-get:*:audio/mpeg:DLNA.ORG_PN=MP3;DLNA.ORG_OP=01;" duration="00:03:14.000">http://192.168.31.172:61323/mp3?filepath=%2Fstorage%2Femulated%2F0%2Fnetease%2Fcloudmusic%2FCache%2FMusic1%2F28308080-192000-8cf0dda09f8952c4cca1be579438535a.mp3.uc%21</res><upnp:artist>Rixton</upnp:artist><upnp:album>Me and My Broken Heart</upnp:album><upnp:albumArtURI>http://p1.music.126.net/ETg9gYYzOn8yZkznUxlKPA==/5847202836693478.jpg</upnp:albumArtURI><netease:musicId>28308080</netease:musicId><neteasemusicdlna>1</neteasemusicdlna></item></DIDL-Lite>
+INFO  [2017-01-15 11:56:22.571720 | transport] NumberOfTracks: 1
+INFO  [2017-01-15 11:56:22.571805 | gstreamer] Set uri to 'http://192.168.31.172:61323/mp3?filepath=%2Fstorage%2Femulated%2F0%2Fnetease%2Fcloudmusic%2FCache%2FMusic1%2F28308080-192000-8cf0dda09f8952c4cca1be579438535a.mp3.uc%21'
+INFO  [2017-01-15 11:56:22.572449 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val="http://192.168.31.172:61323/mp3?filepath=%2Fstorage%2Femulated%2F0%2Fnetease%2Fcloudmusic%2FCache%2FMusic1%2F28308080-192000-8cf0dda09f8952c4cca1be579438535a.mp3.uc%21"></AVTransportURI>
+<AVTransportURIMetaData val="&lt;DIDL-Lite xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:netease=&quot;http://music.163.com/dlna/&quot;&gt;&lt;item id=&quot;28308080&quot;&gt;&lt;dc:title&gt;Me and My Broken Heart&lt;/dc:title&gt;&lt;dc:creator&gt;Rixton&lt;/dc:creator&gt;&lt;upnp:class&gt;object.item.audioItem.musicTrack&lt;/upnp:class&gt;&lt;res protocolInfo=&quot;http-get:*:audio/mpeg:DLNA.ORG_PN=MP3;DLNA.ORG_OP=01;&quot; duration=&quot;00:03:14.000&quot;&gt;http://192.168.31.172:61323/mp3?filepath=%2Fstorage%2Femulated%2F0%2Fnetease%2Fcloudmusic%2FCache%2FMusic1%2F28308080-192000-8cf0dda09f8952c4cca1be579438535a.mp3.uc%21&lt;/res&gt;&lt;upnp:artist&gt;Rixton&lt;/upnp:artist&gt;&lt;upnp:album&gt;Me and My Broken Heart&lt;/upnp:album&gt;&lt;upnp:albumArtURI&gt;http://p1.music.126.net/ETg9gYYzOn8yZkznUxlKPA==/5847202836693478.jpg&lt;/upnp:albumArtURI&gt;&lt;netease:musicId&gt;28308080&lt;/netease:musicId&gt;&lt;neteasemusicdlna&gt;1&lt;/neteasemusicdlna&gt;&lt;/item&gt;&lt;/DIDL-Lite&gt;"></AVTransportURIMetaData>
+<NumberOfTracks val="1"></NumberOfTracks>
+</InstanceID>
+</Event>
+INFO  [2017-01-15 11:56:22.951137 | transport] TransportState: PLAYING
+INFO  [2017-01-15 11:56:22.951282 | transport] CurrentTransportActions: PAUSE,STOP,SEEK
+INFO  [2017-01-15 11:56:22.951317 | transport] CurrentTrack: 1
+INFO  [2017-01-15 11:56:22.951349 | transport] CurrentTrackURI: http://192.168.31.172:61323/mp3?filepath=%2Fstorage%2Femulated%2F0%2Fnetease%2Fcloudmusic%2FCache%2FMusic1%2F28308080-192000-8cf0dda09f8952c4cca1be579438535a.mp3.uc%21
+INFO  [2017-01-15 11:56:22.951401 | transport] CurrentTrackMetaData: <DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:netease="http://music.163.com/dlna/"><item id="28308080"><dc:title>Me and My Broken Heart</dc:title><dc:creator>Rixton</dc:creator><upnp:class>object.item.audioItem.musicTrack</upnp:class><res protocolInfo="http-get:*:audio/mpeg:DLNA.ORG_PN=MP3;DLNA.ORG_OP=01;" duration="00:03:14.000">http://192.168.31.172:61323/mp3?filepath=%2Fstorage%2Femulated%2F0%2Fnetease%2Fcloudmusic%2FCache%2FMusic1%2F28308080-192000-8cf0dda09f8952c4cca1be579438535a.mp3.uc%21</res><upnp:artist>Rixton</upnp:artist><upnp:album>Me and My Broken Heart</upnp:album><upnp:albumArtURI>http://p1.music.126.net/ETg9gYYzOn8yZkznUxlKPA==/5847202836693478.jpg</upnp:albumArtURI><netease:musicId>28308080</netease:musicId><neteasemusicdlna>1</neteasemusicdlna></item></DIDL-Lite>
+INFO  [2017-01-15 11:56:22.951814 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportState val="PLAYING"></TransportState>
+<CurrentTransportActions val="PAUSE,STOP,SEEK"></CurrentTransportActions>
+<CurrentTrack val="1"></CurrentTrack>
+<CurrentTrackURI val="http://192.168.31.172:61323/mp3?filepath=%2Fstorage%2Femulated%2F0%2Fnetease%2Fcloudmusic%2FCache%2FMusic1%2F28308080-192000-8cf0dda09f8952c4cca1be579438535a.mp3.uc%21"></CurrentTrackURI>
+<CurrentTrackMetaData val="&lt;DIDL-Lite xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:netease=&quot;http://music.163.com/dlna/&quot;&gt;&lt;item id=&quot;28308080&quot;&gt;&lt;dc:title&gt;Me and My Broken Heart&lt;/dc:title&gt;&lt;dc:creator&gt;Rixton&lt;/dc:creator&gt;&lt;upnp:class&gt;object.item.audioItem.musicTrack&lt;/upnp:class&gt;&lt;res protocolInfo=&quot;http-get:*:audio/mpeg:DLNA.ORG_PN=MP3;DLNA.ORG_OP=01;&quot; duration=&quot;00:03:14.000&quot;&gt;http://192.168.31.172:61323/mp3?filepath=%2Fstorage%2Femulated%2F0%2Fnetease%2Fcloudmusic%2FCache%2FMusic1%2F28308080-192000-8cf0dda09f8952c4cca1be579438535a.mp3.uc%21&lt;/res&gt;&lt;upnp:artist&gt;Rixton&lt;/upnp:artist&gt;&lt;upnp:album&gt;Me and My Broken Heart&lt;/upnp:album&gt;&lt;upnp:albumArtURI&gt;http://p1.music.126.net/ETg9gYYzOn8yZkznUxlKPA==/5847202836693478.jpg&lt;/upnp:albumArtURI&gt;&lt;netease:musicId&gt;28308080&lt;/netease:musicId&gt;&lt;neteasemusicdlna&gt;1&lt;/neteasemusicdlna&gt;&lt;/item&gt;&lt;/DIDL-Lite&gt;"></CurrentTrackMetaData>
+</InstanceID>
+</Event>
+INFO  [2017-01-15 11:56:22.991499 | webserver] Access /upnp/rendercontrolSCPD.xml (text/xml) len=13317
+INFO  [2017-01-15 11:56:23.111178 | control] cmd_obtain_variable: CurrentVolume for instance 0
+ERROR [2017-01-15 11:56:23.338618 | gstreamer] typefindelement1: Error: Could not determine type of stream. (Debug: gsttypefindelement.c(933): gst_type_find_element_chain_do_typefinding (): /GstPlayBin:play/GstURIDecodeBin:uridecodebin1/GstTypeFindElement:typefindelement1)
+ERROR [2017-01-15 11:56:23.338981 | gstreamer] source: Error: Internal data flow error. (Debug: gstbasesrc.c(2933): gst_base_src_loop (): /GstPlayBin:play/GstURIDecodeBin:uridecodebin1/GstSoupHTTPSrc:source:
+streaming task paused, reason error (-5))
+INFO  [2017-01-15 11:57:19.128823 | transport] TransportState: STOPPED
+INFO  [2017-01-15 11:57:19.129048 | transport] CurrentTransportActions: PLAY,SEEK
+INFO  [2017-01-15 11:57:19.129330 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportState val="STOPPED"></TransportState>
+<CurrentTransportActions val="PLAY,SEEK"></CurrentTransportActions>
+</InstanceID>
+</Event>
